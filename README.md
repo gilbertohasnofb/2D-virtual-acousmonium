@@ -24,7 +24,7 @@ For some examples of this installation, see:
 
 - sample video: https://www.youtube.com/watch?v=b-dt85An05I
 
-For some more information (unfortunately only in Czech language), see: RATAJ, M., AGOSTINHO, G. et al, "Dotknout se zvuku", in: _Opus Musicum_, Vol. 47, Brno 2015 No. 4, p. 58-81, ISSN 0862-8505
+For some more information (unfortunately only in Czech language), see: RATAJ, M., AGOSTINHO, G. et al, "Dotknout se zvuku", in: _Opus Musicum_, Vol. 47, No. 4, Brno 2015, pp. 58-81, ISSN 0862-8505
 
 Requirements
 ------------
