@@ -1,0 +1,14 @@
+#N canvas 68 280 450 300 10;
+#X obj 142 115 *~;
+#X obj 229 115 *~;
+#X obj 229 73 catch~ R0;
+#X obj 142 73 catch~ L0;
+#X obj 157 94 r~ limits0;
+#X obj 244 94 r~ limits0;
+#X obj 142 136 dac~;
+#X connect 0 0 6 0;
+#X connect 1 0 6 1;
+#X connect 2 0 1 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 1;
+#X connect 5 0 1 1;

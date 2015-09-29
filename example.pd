@@ -1,0 +1,29 @@
+#N canvas 783 287 489 560 10;
+#X obj 8 87 2D.TUIO.data;
+#X obj 92 16 cnv 30 30 30 empty empty 2D_Virtual_Acousmonium 20 12
+0 20 -262144 -66577 0;
+#X text 343 46 by Gilberto Agostinho;
+#X obj 19 354 osc~ 440;
+#X obj 19 376 *~ 0.05;
+#X obj 9 324 hradio 25 1 0 5 empty empty empty 0 -8 0 10 -262144 -1
+-1 0;
+#X obj 9 398 demux~ 0 1 2 3 4;
+#X obj 8 147 2D.dac;
+#X obj 8 127 2D.limits 100 100 900 900;
+#X obj 8 107 2D.TUIO.mapping 1000 1000;
+#X obj 9 168 2D.visualiser;
+#X obj 234 168 2D.overrider;
+#X obj 10 500 2D.sound.omni;
+#X obj 31 480 2D.sound.omnispot 500 500;
+#X obj 54 460 2D.sound.spot 500 500;
+#X obj 77 440 2D.sound.vector 0 0 1000 1000 10000;
+#X obj 103 420 2D.sound.circle 500 500 200 2000;
+#X text 143 327 <- select different 2D.sound.* abstractions here;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 12 0;
+#X connect 6 1 13 0;
+#X connect 6 2 14 0;
+#X connect 6 3 15 0;
+#X connect 6 4 16 0;

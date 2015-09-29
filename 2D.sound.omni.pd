@@ -1,0 +1,9 @@
+#N canvas 710 340 450 300 10;
+#X obj 151 138 inlet~;
+#X text 79 48 sound-omni: a sound that won't doesn't have a specific
+spot (it is omnipresent) and thus is not affected by distances and
+angles.;
+#X obj 151 185 throw~ L0;
+#X obj 220 185 throw~ R0;
+#X connect 0 0 2 0;
+#X connect 0 0 3 0;

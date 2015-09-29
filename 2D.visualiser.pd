@@ -1,0 +1,42 @@
+#N canvas 560 251 524 344 10;
+#X obj 106 120 grid grid1 100 0 1000 100 0 1000 1 1 1 10 10 181 174
+;
+#X msg 106 75 values \$1 \$2;
+#X obj 106 12 r x0p;
+#X obj 154 11 r y0p;
+#X obj 154 33 t b f;
+#X obj 106 54 pack f f;
+#X obj 354 28 r a0p;
+#X floatatom 354 50 5 0 0 0 - - -;
+#X floatatom 126 227 5 0 0 0 - 2D_visualiser_X_r 2D_visualiser_X_s
+;
+#X obj 230 136 moonlib/mknob 70 -1 0 360 0 0 empty a0p-dial empty -2
+-6 0 8 -262144 -1 -1 0 1;
+#X obj 354 71 - 180;
+#X obj 354 93 mod 360;
+#X floatatom 354 115 5 0 0 0 - - -;
+#X obj 354 136 s a0p-dial;
+#X text 19 -23 2D.visualiser : visualiser for incoming data from TUIO
+client;
+#X obj 106 274 s 2D_visualiser_X_r;
+#X obj 199 254 s 2D_visualiser_Y_r;
+#X floatatom 196 227 5 0 0 0 - 2D_visualiser_Y_r 2D_visualiser_Y_s
+;
+#X text 110 226 X:;
+#X text 180 226 Y:;
+#X floatatom 266 227 5 0 0 0 - a0p 2D_visualiser_a_s;
+#X text 250 226 a:;
+#X connect 0 0 15 0;
+#X connect 0 1 16 0;
+#X connect 1 0 0 0;
+#X connect 2 0 5 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 4 1 5 1;
+#X connect 5 0 1 0;
+#X connect 6 0 7 0;
+#X connect 7 0 10 0;
+#X connect 10 0 11 0;
+#X connect 11 0 12 0;
+#X connect 12 0 13 0;
+#X coords 0 -1 1 1 220 146 1 100 100;

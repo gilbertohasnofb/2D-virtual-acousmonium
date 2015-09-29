@@ -1,0 +1,45 @@
+#N canvas 940 308 524 447 10;
+#X obj 106 120 grid grid1 100 0 1000 100 0 1000 1 1 1 10 10 181 175
+;
+#X floatatom 229 255 5 0 0 0 - - -;
+#X floatatom 106 255 5 0 0 0 - - -;
+#X obj 230 136 moonlib/mknob 70 -1 0 360 0 0 a0p-dial-overrider empty
+empty -2 -6 0 8 -262144 -1 -1 0 1;
+#X floatatom 335 123 5 0 0 0 - - -;
+#X obj 335 144 - 180;
+#X obj 335 166 mod 360;
+#X floatatom 335 188 5 0 0 0 - - -;
+#X obj 345 209 s a0p;
+#X obj 116 276 s x0p;
+#X obj 239 276 s y0p;
+#X text 49 21 2D.overrider : similar to visualiser \, but used to override
+the values by clicking on the graph and knob;
+#X obj 335 101 r a0p-dial-overrider;
+#X floatatom 126 227 5 0 0 0 - 2D_overrider_X_r x0p;
+#X floatatom 196 227 5 0 0 0 - 2D_overrider_Y_r y0p;
+#X text 110 226 X:;
+#X text 180 226 Y:;
+#X floatatom 266 227 5 0 0 0 - 2D_overrider_a_r a0p;
+#X text 250 226 a:;
+#X obj 105 320 s 2D_overrider_X_r;
+#X msg 106 298 set \$1;
+#X msg 229 298 set \$1;
+#X obj 229 320 s 2D_overrider_Y_r;
+#X msg 335 231 set \$1;
+#X obj 335 253 s 2D_overrider_a_r;
+#X connect 0 0 2 0;
+#X connect 0 1 1 0;
+#X connect 1 0 10 0;
+#X connect 1 0 21 0;
+#X connect 2 0 9 0;
+#X connect 2 0 20 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 7 0 23 0;
+#X connect 12 0 4 0;
+#X connect 20 0 19 0;
+#X connect 21 0 22 0;
+#X connect 23 0 24 0;
+#X coords 0 -1 1 1 220 146 1 100 100;
