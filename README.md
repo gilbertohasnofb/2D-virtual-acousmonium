@@ -22,7 +22,7 @@ For some examples of this installation, see:
 
 - photo album: http://imgur.com/a/uJhAp
 
-- sample video: https://www.youtube.com/watch?v=b-dt85An05I
+- sample video: https://vimeo.com/141252952
 
 For some more information (unfortunately only in Czech language), see: RATAJ, M., AGOSTINHO, G. et al, "Dotknout se zvuku", in: _Opus Musicum_, Vol. 47, No. 4, Brno 2015, pp. 58-81, ISSN 0862-8505
 
