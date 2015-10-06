@@ -81,3 +81,12 @@ Disclaimer
 ----------
 
 This collection of abstractions is offered as is and I take no responsibility for any potential problems it may cause on your system. You are using this at your own risk.
+
+Acknowledgment
+--------------
+
+Special thanks to Michal Rataj (Academy of Performing Arts in Prague), Adam Sporka (Czech Technical University in Prague), Jakub Hybler (FEL ČVUT) and the whole Institut intermédií (IIM) for all their help and support.
+
+* * *
+
+_Tato studie vznikla na Akademii múzických umění v Praze v rámci projektu "Senzory jako hudební nástroje" podpořeného z prostředků Institucionální podpory na dlouhodobý koncepční rozvoj výzkumné organizace, kterou poskytlo MŠMT v roce 2014._
